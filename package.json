@@ -1,13 +1,13 @@
 {
   "name": "globbies",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Extends glob with support for ES6 and multiple patterns.",
   "homepage": "http://cjpatoilo.com/globbies",
   "repository": "cjpatoilo/globbies",
   "license": "MIT",
   "author": "CJ Patoilo <cjpatoilo@gmail.com>",
   "files": [
-    "src/index.js"
+    "index.js"
   ],
   "keywords": [
     "all",
