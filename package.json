@@ -1,0 +1,69 @@
+{
+  "name": "globbies",
+  "version": "0.0.0",
+  "description": "Extends glob with support for ES6 and multiple patterns.",
+  "homepage": "http://cjpatoilo.com/globbies",
+  "repository": "cjpatoilo/globbies",
+  "license": "MIT",
+  "author": "CJ Patoilo <cjpatoilo@gmail.com>",
+  "files": [
+    "src/index.js"
+  ],
+  "keywords": [
+    "all",
+    "array",
+    "automation",
+    "directories",
+    "dirs",
+    "expand",
+    "files",
+    "filesystem",
+    "filter",
+    "find",
+    "fnmatch",
+    "folders",
+    "fs",
+    "glob",
+    "globbing",
+    "globs",
+    "gulpfriendly",
+    "match",
+    "matcher",
+    "minimatch",
+    "multi",
+    "multiple",
+    "paths",
+    "pattern",
+    "patterns",
+    "traverse",
+    "util",
+    "utility",
+    "wildcard",
+    "wildcards",
+    "promise",
+    "npm",
+    "package.json"
+  ],
+  "ignore": [
+    ".appveyor.yml",
+    ".editorconfig",
+    ".github",
+    ".gitignore",
+    ".travis.yml",
+    "package.json",
+    "test"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "nyc": "^8.3.0",
+    "standard": "^8.6.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "standard && nyc ava"
+  }
+}
