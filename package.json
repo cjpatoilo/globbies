@@ -1,6 +1,6 @@
 {
   "name": "globbies",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Extends glob with support for ES6 and multiple patterns.",
   "homepage": "http://cjpatoilo.com/globbies",
   "repository": "cjpatoilo/globbies",
@@ -53,10 +53,10 @@
     "package.json",
     "test"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "ava": "^0.17.0",
+    "husky": "^0.12.0",
     "nyc": "^8.3.0",
     "standard": "^8.6.0"
   },
@@ -64,6 +64,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "standard && nyc ava"
+    "precommit": "npm t",
+    "prepush": "npm t",
+    "test": "standard"
   }
 }
