@@ -3,8 +3,8 @@
 > Extends glob with support for ES6 and multiple patterns.
 
 [![Travis Status](https://travis-ci.org/cjpatoilo/globbies.svg?branch=master)](https://travis-ci.org/cjpatoilo/globbies?branch=master)
-[![AppVeyor Status](https://ci.appveyor.com/api/projects/status/efthn2yp6c57gu1b?svg=true)](https://ci.appveyor.com/project/cjpatoilo/globbies)
-[![Codacy Status](https://img.shields.io/codacy/grade/848fb4bd6902434fab0bcfb5461284fe/master.svg)](https://www.codacy.com/app/cjpatoilo/globbies/dashboard)
+[![AppVeyor Status](https://ci.appveyor.com/api/projects/status/dofn8iefcwu3q422?svg=true)](https://ci.appveyor.com/project/cjpatoilo/globbies)
+[![Codacy Status](https://img.shields.io/codacy/grade/1a78b099b08f4cf08c6040a630f5c92a/master.svg)](https://www.codacy.com/app/cjpatoilo/globbies/dashboard)
 [![Dependencies Status](https://david-dm.org/cjpatoilo/globbies/status.svg)](https://david-dm.org/cjpatoilo/globbies)
 [![devDependencies Status](https://david-dm.org/cjpatoilo/globbies/dev-status.svg)](https://david-dm.org/cjpatoilo/globbies?type=dev)
 [![Version Status](https://badge.fury.io/js/globbies.svg)](https://www.npmjs.com/package/globbies)
