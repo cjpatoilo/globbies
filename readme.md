@@ -1,4 +1,4 @@
-<a align="center" href="http://cjpatoilo.com/globbies"><img width="100%" src="http://cjpatoilo.com/globbies/images/thumbnail.png" alt="Extends glob with support for ES6 and multiple patterns."></a>
+# globbies
 
 > Extends glob with support for ES6 and multiple patterns.
 
