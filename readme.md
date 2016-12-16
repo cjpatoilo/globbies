@@ -1,5 +1,8 @@
 # globbies
 
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a78b099b08f4cf08c6040a630f5c92a)](https://www.codacy.com/app/cjpatoilo/globbies?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cjpatoilo/globbies&amp;utm_campaign=badger)
+
 > Extends glob with support for ES6 and multiple patterns.
 
 [![Travis Status](https://travis-ci.org/cjpatoilo/globbies.svg?branch=master)](https://travis-ci.org/cjpatoilo/globbies?branch=master)
