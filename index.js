@@ -1,6 +1,7 @@
 'use strict'
-const path = require('path')
+const fs = require('fs')
 const glob = require("glob")
+const path = require('path')
 
 function globbies (dir, cb) {
   if (!fs.existsSync(path.dirname(dir))) {
