@@ -1,6 +1,6 @@
 {
 	"name": "globbies",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Extends glob with support for ES6 and multiple patterns.",
 	"homepage": "http://cjpatoilo.com/globbies",
 	"repository": "cjpatoilo/globbies",
@@ -69,6 +69,6 @@
 	},
 	"scripts": {
 		"precommit": "npm t",
-		"test": "nyc ava && eslint . -c styled --ignore-path .gitignore && editorconfig-tools check ."
+		"test": "eslint . -c styled --ignore-path .gitignore && editorconfig-tools check ."
 	}
 }
