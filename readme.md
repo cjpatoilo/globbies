@@ -1,4 +1,4 @@
-# globbies
+# Globbies
 
 > Extends glob with support for ES6 and multiple patterns.
 
@@ -16,14 +16,15 @@
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
 
-## Install
+## Getting Started
+
+**Install with npm**
 
 ```sh
-$ npm i --save globbies
+$ npm install globbies
 ```
 
-
-## Usage
+**Usage**
 
 ```js
 ├── patrick/controller.js
@@ -33,10 +34,10 @@ $ npm i --save globbies
 ```
 
 ```js
-const globbies = require('globbies');
+const globbies = require('globbies')
 
-globbies('../', files => console.log(files))
-// ['patrick/controller.js', 'sandy/controller.js', 'sheldon/controller.js', 'gary/controller.js']
+globbies('../**/controller.js', (err, data) => console.log(data))
+// => ['patrick/controller.js', 'sandy/controller.js', 'sheldon/controller.js', 'gary/controller.js']
 ```
 
 
