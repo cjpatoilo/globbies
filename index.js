@@ -9,10 +9,10 @@ const path = require('path')
  * @returns {Callback} an instance of a resolver
  */
 function globbies (dir, cb) {
-	dir = path.resolve(__dirname, dir)
-	glob(dir, (err, data) => {
-		if (err) throw err
-		data.map(data => cb(err, data))
+	glob(path.resolve(__dirname, dir), (err, files) => {
+		if (err) throw new Error(err)
+
+		return files.map(file => cb(file))
 	})
 }
 
