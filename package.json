@@ -54,15 +54,15 @@
 		"test"
 	],
 	"dependencies": {
-		"glob": "^7.1.1"
+		"glob": "^7.1.2"
 	},
 	"devDependencies": {
-		"ava": "^0.17.0",
+		"ava": "^0.22.0",
 		"editorconfig-tools": "^0.1.1",
-		"eslint": "^3.12.1",
-		"eslint-config-styled": "^0.0.0",
-		"husky": "^0.12.0",
-		"nyc": "^8.3.0"
+		"eslint": "^4.7.2",
+		"eslint-config-styled": "0.0.2",
+		"husky": "^0.14.3",
+		"nyc": "^11.2.1"
 	},
 	"engines": {
 		"node": ">=4"
