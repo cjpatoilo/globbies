@@ -1,6 +1,6 @@
 {
 	"name": "globbies",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "Extends glob with support for ES6 and multiple patterns.",
 	"homepage": "https://cjpatoilo.com/globbies",
 	"repository": "cjpatoilo/globbies",
